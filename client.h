@@ -18,3 +18,4 @@ bool rechercheClient(int id);
 void supprimerClient(int id);
 void afficherClientRechercher(int id);
 #endif
+

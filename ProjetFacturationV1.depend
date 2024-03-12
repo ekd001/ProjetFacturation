@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1709838748 source:c:\users\eklou dodji\documents\projetfacturationv1\article.c
+	<stdio.h>
+	<stdbool.h>
+	"article.h"
+
+1709592983 c:\users\eklou dodji\documents\projetfacturationv1\article.h
+	<stdbool.h>
+
+1709766103 source:c:\users\eklou dodji\documents\projetfacturationv1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"cml.h"
+
+1709837910 source:c:\users\eklou dodji\documents\projetfacturationv1\cml.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cml.h"
+	"article.h"
+	"client.h"
+	"facture.h"
+
+1709762761 c:\users\eklou dodji\documents\projetfacturationv1\cml.h
+
+1709588759 source:c:\users\eklou dodji\documents\projetfacturationv1\client.c
+	<stdbool.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"client.h"
+
+1709838908 c:\users\eklou dodji\documents\projetfacturationv1\client.h
+	<stdbool.h>
+
+1709839076 source:c:\users\eklou dodji\documents\projetfacturationv1\facture.c
+	"facture.h"
+	"cml.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1709838902 c:\users\eklou dodji\documents\projetfacturationv1\facture.h
+	"article.h"
+

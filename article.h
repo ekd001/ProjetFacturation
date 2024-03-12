@@ -4,7 +4,7 @@
 
 struct Article {
     int code_article;
-    char libelle[100];
+    char libelle[50];
     int quantite;
     float prix_unitaire;
 };
@@ -14,6 +14,10 @@ void ajouterArticle();
 void afficherArticleRechercher(int code);
 void afficherListeArticle();
 bool rechercherArticle(int code);
+bool verifierQuantiteArticle(int qt,int code);
 void supprimerArticle(int code);
+void modifierArticle(int code);
+
 
 #endif
+

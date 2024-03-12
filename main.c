@@ -1,17 +1,20 @@
-/*
-Name : Projet de Facturation
-Goal : Effectuer la facture des articles achetés par un client
-Author : ATUAKUMA, EKLOU, LAWSON-BODY
-Date : 
-*/
+/**
+Name   : Projet Facturation V1.
+Goal   : Facturer les articles pour un client, gerer les articles et les clients.
+Author : ATUAKUMA, EKLOU, LAWSON-BODY.
+Date   : 2024-03-06.
+**/
 
-#include <stdbool.h>
 #include <stdio.h>
-#include <string.h>
-#include "client.c"
-#include "article.c"
+#include <stdlib.h>
+#include <locale.h>
+#include "cml.h"
 
-int main(void){
-  
-    return 0;   
+int main()
+{
+    system("color f0");
+    setlocale(LC_CTYPE,"");
+    titre();
+    acceuil();
+    return 0;
 }
